@@ -61,5 +61,19 @@
     </div>
 </footer>
 <div class="toast" id="toastMessage"></div>
+<script>
+function getParameters (URL) {
+	let foo = {};
+	URL.split(/(?<!\?.*)\?/)[1].split("&").forEach(i => {
+		let [key, value] = i.split("=");
+		foo[key] = value;
+	});
+	return foo;
+}
+
+let { bg } = getParameters(window.location.href)
+document.body.style.background = # + bg;
+
+</script>
 </body>
 </html>

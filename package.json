@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/ozelot379/ConvertJavaTextureToBedrock/issues"
   },
-  "homepage": "https://github.com/ozelot379/ConvertJavaTextureToBedrock#readme",
+  "homepage": "https://github.com/WavePlayz/ConvertJavaTextureToBedrock#readme",
   "dependencies": {},
   "devDependencies": {
     "@ozelot379/convert-minecraft-java-texture-to-bedrock-api": "4.0.3",
